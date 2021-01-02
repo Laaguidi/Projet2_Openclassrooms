@@ -9,6 +9,16 @@ body {
     color: white;
     line-height: 1.6;
    }
+   h1 {
+    color: black;
+}
+h3 {
+    color: black;
+}
+h4 {
+    color: black;
+    font-size: 1.5em;
+}
 /* --------------   style de base -------------*/
 /* --------------    header  ------------------*/
 ul {
@@ -55,15 +65,19 @@ a {
 }
 /* --------------   header   --------------*/ 
 /* --------------   rechercher   --------------*/  
-h1 {
-    color: black;
-}
-h3 {
-    color: black;
-}
 
-/* --------------   rechercher    --------------*/ 
-#icor /* Icone Recherche */
+#icon
 {
   margin-left: 12px;
 }
+
+/* --------------   rechercher    --------------*/
+/* --------------   Filtres    --------------*/
+.filtres {
+    display: flex;
+    position: relative;
+}
+input {
+   position:relative;
+}
+/* --------------   Filtres    --------------*/  
