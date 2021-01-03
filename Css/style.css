@@ -8,9 +8,11 @@ body {
     font-family: font-family: 'Raleway', sans-serif;
     color: white;
     line-height: 1.6;
+    padding: 40px;
    }
-   h1 {
+h1 {
     color: black;
+    font-size: 2em;
 }
 h3 {
     color: black;
@@ -76,6 +78,10 @@ a {
 
 /* --------------   rechercher    --------------*/
 /* --------------   Filtres    --------------*/
+.search-container {
+    display: flex;
+    align-items: baseline;
+}
 .filtres {
     display: flex;
     position: relative;
@@ -88,7 +94,10 @@ input {
 .info {
     display: flex;
     align-items: baseline;
-    
+    color: grey;
 } 
 
 /* --------------   Informations    --------------*/  
+/* --------------   hebrgement a marseille    --------------*/ 
+
+/* --------------   hebergement a marseille    --------------*/ 
