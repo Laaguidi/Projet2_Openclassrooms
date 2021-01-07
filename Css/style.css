@@ -1,110 +1,248 @@
 /*   --------------  style de base  --------------*/
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+body
+{
+	padding: 3%;
+	font-family: 'Raleway', Arial, sans-serif;
+
 }
-body {
-    font-family: font-family: 'Raleway', sans-serif;
-    color: white;
-    line-height: 1.6;
-    padding: 40px;
-   }
-h1 {
-    color: black;
-    font-size: 2em;
+
+
+h1 
+{
+  font-size: 15px;
+  color: black;
 }
-h3 {
-    color: black;
+
+h2
+{
+  font-size: 11px;
+  color: grey;
 }
-h4 {
-    color: black;
-    font-size: 1.5em;
+
+h3
+{
+  font-size: 17px;
 }
-p {
-    color: grey;
+
+h4
+{
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+h5
+{
+  font-size: 12px;
+  color: grey;
+}
+
+a 
+{
+  text-decoration: none;
+}
+
+a:visited
+{ 
+  color: black;
 }
 /* --------------   style de base -------------*/
 /* --------------    header  ------------------*/
-ul {
-       list-style-type: none;
-   }
-   
-a {
-       text-decoration: none;
-       color: #0065FC;
-      font-size: 20px;
-   }
-   
-.navbar {
-       background-color:aliceblue;
-       height: 120px;
-   }
-
-.container {
-       max-width: 1550px; 
-       margin: 0 auto;
-       padding: 10px ;
-}
-.flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-.navbar .flex {
-    justify-content: space-between;
+header
+{
+  background: url('Images/Reservia.svg') no-repeat;
+  display: block;
+  color: black;
 }
 
-.navbar a {
-    padding: 10px;
-    margin: 0 10px;
-}
-.navbar a:hover {
-    border-top: 2px white solid;
+/* Navigation */
+
+nav
+{
+	display: flex;
+	align-items: baseline;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
 }
 
-.logo {
-    padding-top: 25px;
-    text-decoration: none; 
+nav ul
+{
+  list-style-type: none;
+  display: flex;
+}
+
+nav li
+{
+  margin-right: 50px;
+}
+
+nav a
+{
+  font-size: 1em;
+  padding-top: 54px;
+  text-decoration: none;
+  color: grey;
+}
+
+nav a:hover
+{
+  color: #0065FC;
+  border-top: 2px solid #0065FC;
+}
+.hebergements
+{
+	color: #0065FC;
+/*	border-top: 2px solid  #0065FC;       a mettre apres */
+
+}
+
+.login
+{
+  color: #0065FC;
+}
+
+.login:visited
+{
+  color: #0065FC;
 }
 /* --------------   header   --------------*/ 
-/* --------------   rechercher   --------------*/  
+/* --------------    recherche ville  bar  --------------*/  
+.recherche input 
+{
+    height: 35px;
 
-#icon
+}
+
+#ville 
+{
+    width: 170px;
+    margin-left: 12px;
+    padding-left: 15px;
+    border: none;
+    font-size: 14px;
+}
+
+#submit
+{
+    border-radius: 0 12px 12px 0;
+    background-color: #0065FC;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border: none;
+    font-size: 14px;
+}
+
+
+.recherche
+{
+  display: flex;
+  height: 25px;
+}
+
+.recherche p
+{
+  display: flex;
+  align-items: baseline;
+  flex-flow: row nowrap;
+  background-color: #F2F2F2;
+  border-radius: 12px;
+}
+
+#icon 
 {
   margin-left: 12px;
 }
-
-/* --------------   rechercher    --------------*/
+/* --------------   recherche ville  bar  --------------*/
 /* --------------   Filtres    --------------*/
-.search-container {
-    display: flex;
-    align-items: baseline;
+
+.filtres 
+{
+  display: flex;
+  font-size: 13px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  font-weight: bold;
+  margin-top: 30px;
 }
-.filtres {
-    display: flex;
-    position: relative;
+
+.filtres ul
+{
+  list-style-type: none;
+  display: flex;
+  margin-left: 30px;
 }
-input {
-   position:relative;
+
+.filtres li
+{
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+
+.filtres a
+{
+  font-size: 1em;
+  padding: 8px 8px 8px 0;
+  color: black;
+  border: 1px solid #bdc3c7;
+  border-radius: 50px;
+}
+
+.filtres a:hover
+{
+  background-color: #F2F2F2;
+  color: #0065FC;
+  border: 2px solid #0065FC;
+}
+
+.filtres h3
+{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 0;
+  font-weight: bold;
+}
+
+.filtres i 
+{
+  color: #0065FC;
+  background-color: #DEEBFF;
+  padding: 10px 10px;
+  margin-right: 10px;
+  border-radius: 50%;
 }
 /* --------------   Filtres    --------------*/ 
 /* --------------   Informations    --------------*/ 
-.info {
-    display: flex;
-    align-items: baseline;
-    color: grey;
-} 
+#info
+{
+  display: flex;
+
+  align-items: baseline;
+}
+
+#info i
+{
+
+  font-size: 20px;
+  color: white;
+  background-color: #0065FC;
+
+  margin-right: 10px;
+  border-radius: 50%;
+  border: solid 1px #F2F2F2;
+
+}
 
 /* --------------   Informations    --------------*/  
 /* --------------   hebrgement a marseille    --------------*/ 
 
 /* --------------   hebergement a marseille    --------------*/ 
 /* --------------   les plus populaires    --------------*/ 
-.fas {
-    color: ;
-}
+
 /* --------------   les plus polpulaires   --------------*/ 
 
 /* --------------            footer          --------------*/ 
