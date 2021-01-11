@@ -3,19 +3,20 @@ body
 {
 	padding: 3%;
 	font-family: 'Raleway', Arial, sans-serif;
-
+  margin: O;  
 }
 
 
 h1 
 {
-  font-size: 15px;
+  font-size: 22px;
   color: black;
 }
 
-h2
+p
 {
-  font-size: 11px;
+  font-size: 17px;
+  font-weight: 3em;
   color: grey;
 }
 
@@ -45,17 +46,16 @@ a
   text-decoration: none;
 }
 
-a:visited
+a
 { 
   color: black;
 }
-/* --------------   style de base -------------*/
-/* --------------    header  ------------------*/
-header
-{
-  background: url('Images/Reservia.svg') no-repeat;
-  display: block;
-  color: black;
+/* -------------------   style de base   ------------------*/
+/* --------------------    Header  -------------------------*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Navigation */
@@ -92,31 +92,36 @@ nav a:hover
   color: #0065FC;
   border-top: 2px solid #0065FC;
 }
-.hebergements
+.hebergement
 {
 	color: #0065FC;
 /*	border-top: 2px solid  #0065FC;       a mettre apres */
 
 }
 
-.login
+.sinscrire
 {
   color: #0065FC;
 }
 
-.login:visited
+.sinscrire:visited
 {
   color: #0065FC;
 }
-/* --------------   header   --------------*/ 
-/* --------------    recherche ville  bar  --------------*/  
+/* -----------------   Header   --------------------------*/ 
+/* -----------------   Trouvé votre hébergement   --------------------------*/ 
+  #trouvé-votre-hébergement {
+    padding-top: 25px;
+    font-size: 20px;
+  }      
+/* ---- recherche ville  bar ----*/  
 .recherche input 
 {
     height: 35px;
 
 }
 
-#ville 
+.city 
 {
     width: 170px;
     margin-left: 12px;
@@ -217,14 +222,14 @@ nav a:hover
 }
 /* --------------   Filtres    --------------*/ 
 /* --------------   Informations    --------------*/ 
-#info
+.information
 {
   display: flex;
 
   align-items: baseline;
 }
 
-#info i
+.information i
 {
 
   font-size: 20px;
@@ -239,12 +244,174 @@ nav a:hover
 
 /* --------------   Informations    --------------*/  
 /* --------------   hebrgement a marseille    --------------*/ 
+#hebergements  /* hebergements + populaires*/
+{
+ display: flex;
+ margin-top: 30px;
+ justify-content: space-between;
+}
 
+.image-1
+{
+  background-image: url('Images/hébergements/lacanne-biére.jpg');
+}
+.imgage-2
+{
+  background-image: url('Images/hébergements/hotel-du-port.jpg');
+}
+.imgage-3
+{
+  background-image: url('Images/hébergements/hotel-les-mouettes.jpg');
+}
+.imgage-4
+{
+  background-image: url('Images/hébergements/hotel-de-la-mer.jpg');
+}
+.imgage-5
+{
+  background-image: url('Images/hébergements/auberge-le-panier.jpg');
+}
+.imgage-6
+{
+  background-image: url('Images/hébergements/hotel-chez-amina.jpg');
+}
+
+
+section
+{
+  display: block;
+  background-color: #F2F2F2;
+  width: 63%;
+  height: 550px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+article h3
+{
+
+margin-left: 30px;
+
+}
+
+.premiere-ligne
+{
+  height: 35%;
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.deuxieme-ligne
+{
+  height: 35%;
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+  margin-top: 20px;
+}
+
+.section1
+{
+  display: flex;
+  width: 29%;
+  height: 200px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #dce0e6;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 5%;
+
+}
+
+.hotel-section1
+{
+  margin-left: 10px;
+}
+
+.section1 i   /*   Etoiles   */
+{
+
+  color: #0065FC;
+  font-size: 10px;
+}
+
+#star1
+{
+  color: #dce0e6;
+}
+
+#plus   /*   plus de resultats   */
+{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 50px;
+  flex-direction: column;
+}
 /* --------------   hebergement a marseille    --------------*/ 
 /* --------------   les plus populaires    --------------*/ 
 
 /* --------------   les plus polpulaires   --------------*/ 
 
 /* --------------            footer          --------------*/ 
+footer
 
+{
+  display: flex;
+  background-color: #F2F2F2;   
+  margin: -4%;
+  margin-top: 50px;
+  height: 150px;
+  justify-content: flex-start;
+
+}
+
+footer a
+{
+  text-decoration: none;
+}
+
+
+footer li
+{
+  list-style-type: none;
+  margin-top: 7px;
+
+}
+
+footer ul
+{
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  text-decoration: none;
+  margin-top: -5px;
+}
+
+footer div
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 33%;
+
+}
+
+footer h4
+{
+  margin-top: 30px;
+
+}
+li a
+{
+  text-decoration: none;
+}
+
+
+footer a:visited
+{ 
+  color: black;
+}
 /* --------------            footer           --------------*/ 
