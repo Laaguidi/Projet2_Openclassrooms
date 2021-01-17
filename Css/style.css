@@ -1,16 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 /*   --------------  style de base  --------------*/
 body
 {
 	padding: 3%;
 	font-family: 'Raleway', Arial, sans-serif;
-  margin: O;  
+  margin: auto;
+  line-height: 32px;
 }
 
-
-h1 
-{
-  font-size: 22px;
+h1 {
+  font-size: 20px;
   color: black;
+}
+
+h2 {
+  font-size: 16px;
+  color: grey;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 12px;
+  color: grey;
 }
 
 p
@@ -20,57 +46,39 @@ p
   color: grey;
 }
 
-h3
-{
-  font-size: 17px;
-}
-
-h4
-{
-  font-weight: bold;
-  font-size: 14px;
-  text-decoration: none;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-
-h5
-{
-  font-size: 12px;
-  color: grey;
-}
-
-a 
-{
+a  {
   text-decoration: none;
 }
 
-a
-{ 
+a { 
   color: black;
 }
 /* -------------------   style de base   ------------------*/
 /* --------------------    Header  -------------------------*/
 header {
   display: flex;
-  align-items: center;
+  color: black;
   justify-content: space-between;
+  align-items: center;
 }
 
+.logo {
+/*  margin-left: 25px; */
+ 
+}
 
-nav
-{
+nav {
 	display: flex;
 	align-items: baseline;
 	flex-flow: row nowrap;
-	justify-content: flex-end;
+  justify-content: flex-end;
+  margin-top: -8px;
 }
 
-nav ul
-{
+nav ul {
   list-style-type: none;
   display: flex;
+  margin-top: 5px;
 }
 
 nav li
@@ -78,64 +86,51 @@ nav li
   margin-right: 50px;
 }
 
-nav a
-{
-  font-size: 1em;
+nav a {
+  font-size: 1.1em;
   padding-top: 54px;
   text-decoration: none;
   color: grey;
 }
 
-nav a:hover
-{
+nav a:hover {
   color: #0065FC;
   border-top: 2px solid #0065FC;
 }
-.hebergement
-{
-	color: #0065FC;
-/*	border-top: 2px solid  #0065FC;       a mettre apres */
 
-}
-
-.sinscrire
-{
-  color: #0065FC;
-}
-
-.sinscrire:visited
-{
-  color: #0065FC;
-}
 /* -----------------   Header   --------------------------*/ 
 /* -----------------   Trouvé votre hébergement   --------------------------*/ 
-  #trouvé-votre-hébergement {
-    padding-top: 25px;
-    font-size: 20px;
-  }      
-/* ---- recherche ville  bar ----*/  
+#trouvé-votre-hébergement {
+  padding-top: 25px;
+  font-size: 20px;
+} 
+
+
+
+/* ----- recherche ville  bar -------*/
 .recherche input 
 {
-    height: 35px;
-
+    height: 50px;
+    text-align: center;
 }
 
 .city 
 {
-    width: 170px;
+    width: 227px;             /* 170     origin*/
     margin-left: 12px;
     padding-left: 15px;
     border: none;
-    font-size: 14px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
-#submit
+#sub
 {
     border-radius: 0 12px 12px 0;
     background-color: #0065FC;
     color: white;
-    height: 35px;
-    width: 100px;
+    height: 49px;        /*35 */
+    width: 150px;          /* 100px */
     border: none;
     font-size: 14px;
 }
@@ -144,7 +139,7 @@ nav a:hover
 .recherche
 {
   display: flex;
-  height: 25px;
+  height: 28px;
 }
 
 .recherche p
@@ -154,23 +149,24 @@ nav a:hover
   flex-flow: row nowrap;
   background-color: #F2F2F2;
   border-radius: 12px;
+  font-size: 20px; 
+  margin-top: -14px;          /* yavais rien */
 }
 
 #icon 
 {
-  margin-left: 12px;
+  margin-left: 25px; 
+  margin-right: 15px;       /*  12px   */
 }
-/* --------------   recherche ville  bar  --------------*/
 /* --------------   Filtres    --------------*/
-
 .filtres 
 {
   display: flex;
-  font-size: 13px;
+  font-size: 20px;
   align-items: baseline;
   flex-wrap: wrap;
   font-weight: bold;
-  margin-top: 30px;
+  margin-top: -14px;
 }
 
 .filtres ul
@@ -186,26 +182,19 @@ nav a:hover
   text-decoration: none;
 }
 
-
 .filtres a
 {
-  font-size: 1em;
+  font-size: 17px;
   padding: 8px 8px 8px 0;
   color: black;
   border: 1px solid #bdc3c7;
   border-radius: 50px;
 }
 
-.filtres a:hover
-{
-  background-color: #F2F2F2;
-  color: #0065FC;
-  border: 2px solid #0065FC;
-}
 
 .filtres h3
 {
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 20px;
   margin-left: 0;
   font-weight: bold;
@@ -219,32 +208,43 @@ nav a:hover
   margin-right: 10px;
   border-radius: 50%;
 }
+
+.filtres a:hover
+{
+  background-color: #F2F2F2;
+  color: #0065FC;
+  border: 2px solid #0065FC;
+}
+
+.filtres i:hover {
+  background-color:salmon;
+  color: red;
+}
+
+
+
 /* --------------   Filtres    --------------*/ 
 /* --------------   Informations    --------------*/ 
 .information
 {
   display: flex;
-
   align-items: baseline;
+  margin-top: 16px;
 }
 
 .information i
 {
-
   font-size: 20px;
   color: white;
   background-color: #0065FC;
-
   margin-right: 10px;
   border-radius: 50%;
   border: solid 1px #F2F2F2;
-
 }
 
 /* --------------   Informations    --------------*/  
 
 /* --------------   hebrgements a marseille    --------------*/ 
-
 #hebergements  
 {
  display: flex;
@@ -252,7 +252,11 @@ nav a:hover
  justify-content: space-between;
 }
 
- .image-1
+ .hébergements-a-marseille {
+  padding-left: 28px;
+}
+
+.image-1
 {
   background-image: url('../Images/hébergements/lacanne-biére.jpg');
 }
@@ -282,17 +286,15 @@ nav a:hover
   background-position: 10%;
   height: 100px;
   margin: 2%;
-  border-radius: 17px 17px 0 0;
+  border-radius: 15px 15px 0 0;
 
 }
-
-
 
 section
 {
   display: block;
   background-color: #F2F2F2;
-  width: 63%;
+  width: 61%;                   /* a voir */
   height: 550px;
   border-radius: 20px;
   font-size: 10px;
@@ -300,9 +302,7 @@ section
 
 section h3
 {
-
 margin-left: 28px;
-
 }
 
 .premiere-ligne
@@ -334,20 +334,24 @@ margin-left: 28px;
   justify-content: flex-start;
   margin-top: 20px;
   margin-bottom: 5%;
-
 }
 
 .hotel-section1
 {
-  line-height: 1em;
+  /*line-height: 23px;
+  margin-top: 10px;
+  margin-left: 20px;*/
+  line-height: 2em;
   margin-top: 13px;
   margin-left: 20px;
-
 }
 
-.section1 i   /*   Etoiles   */
-{
+.hotel-section1 p {
+  font-size: 14px;
+}
 
+.section1 i   /*  the stars   */
+{
   color: #0065FC;
   font-size: 10px;
 }
@@ -357,6 +361,7 @@ margin-left: 28px;
   color: #dce0e6;
 }
 
+
 #plus   /*   plus de resultats   */
 {
   display: flex;
@@ -364,68 +369,13 @@ margin-left: 28px;
   margin-top: 50px;
   flex-direction: column;
 }
+
+
 /* --------------   hebergement a marseille    --------------*/ 
 /* --------------   les plus populaires    --------------*/ 
 
 /* --------------   les plus polpulaires   --------------*/ 
 
 /* --------------            footer          --------------*/ 
-footer
 
-{
-  display: flex;
-  background-color: #F2F2F2;   
-  margin: -4%;
-  margin-top: 50px;
-  height: 150px;
-  justify-content: flex-start;
-
-}
-
-footer a
-{
-  text-decoration: none;
-}
-
-
-footer li
-{
-  list-style-type: none;
-  margin-top: 7px;
-
-}
-
-footer ul
-{
-  margin: 0;
-  padding: 0;
-  font-size: 12px;
-  text-decoration: none;
-  margin-top: -5px;
-}
-
-footer div
-{
-  display: flex;
-  flex-direction: column;
-  margin-left: 50px;
-  width: 33%;
-
-}
-
-footer h4
-{
-  margin-top: 30px;
-
-}
-li a
-{
-  text-decoration: none;
-}
-
-
-footer a:visited
-{ 
-  color: black;
-}
 /* --------------            footer           --------------*/ 
