@@ -245,16 +245,7 @@ nav a:hover {
 /* --------------   Informations    --------------*/  
 
 /* --------------   hebrgements a marseille    --------------*/ 
-#hebergements  
-{
- display: flex;
- margin-top: 30px;
- justify-content: space-between;
-}
 
- .hébergements-a-marseille {
-  padding-left: 28px;
-}
 
 .image-1
 {
@@ -281,12 +272,25 @@ nav a:hover {
   background-image: url('../Images/hébergements/hotel-chez-amina.jpg');
 } 
 
+#hebergements  
+{
+ display: flex;
+ margin-top: 30px;
+ justify-content: space-between;
+}
+
+ .hébergements-a-marseille {
+  padding-left: 2px;
+  margin-top: 15px;
+}
+
+
 .images-1 {
   background-size: cover;
-  background-position: 10%;
-  height: 100px;
+  background-position: 50%;
+  height: 120px;
   margin: 2%;
-  border-radius: 15px 15px 0 0;
+  border-radius: 17px 17px 0 0;
 
 }
 
@@ -298,9 +302,10 @@ section
   height: 550px;
   border-radius: 20px;
   font-size: 10px;
+  padding-bottom: 30px;        /* padding-bottm */
 }
 
-section h3
+section h1
 {
 margin-left: 28px;
 }
@@ -342,7 +347,7 @@ margin-left: 28px;
   margin-top: 10px;
   margin-left: 20px;*/
   line-height: 2em;
-  margin-top: 13px;
+  margin-top: 3px;
   margin-left: 20px;
 }
 
@@ -350,7 +355,7 @@ margin-left: 28px;
   font-size: 14px;
 }
 
-.section1 i   /*  the stars   */
+.section1 i  
 {
   color: #0065FC;
   font-size: 10px;
@@ -361,21 +366,142 @@ margin-left: 28px;
   color: #dce0e6;
 }
 
-
-#plus   /*   plus de resultats   */
+#plus  h4 
 {
   display: flex;
+  font-size: 17px;
   margin-left: 40px;
   margin-top: 50px;
   flex-direction: column;
+  margin-left: 29px;
+}
+/* --------------   les plus polpulaires   --------------*/ 
+aside   
+{
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2;
+  width: 30%;
+  height: 550px;
+  border-radius: 20px;
+  justify-content: space-around;
+  padding-bottom: 30px;            /* padding bottom */
+  margin-right: 36px;
+}
+.les-plus-populaires     
+{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 12px;                    /* padding */
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 15px;
+}
+.les-plus-populaires i 
+{
+  font-size: 18px;
+  /*margin-bottom: 2%; */
+  
+}
+.section-2  {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  height: 133px;
+  background: white;
+  border-radius: 5px;
+  margin: auto;
+  box-shadow: 1px 1px 2px #dce0e6;    /* box shadow  */
+  padding: 1%;
+}
+.pic-1
+{
+  background-image: url('../Images/hébergements/lesoleil-du-matin.jpg'); 
+}
+.pic-2
+{
+  background-image: url('../Images/hébergements/aucoeur-de-leau.jpg');  
+}
+.pic-3
+{
+  background-image: url('../Images/hébergements/tout-bleu-et-blanc.jpg');  
+}
+.pictures-2 {
+  background-size: cover;
+  background-position: 50%;
+  width: 40%;
+  height: 100%;
+  border-radius: 17px 0 0 17px;
+  margin-right: 3%;
+}
+.section-2 i
+{
+  color: #0065FC;
+  font-size: 10px;
+  margin-top: 28px;
+}
+.section-2 h4
+{
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.section-2 p
+{
+  font-size: 14px;
+}
+.hotels-2
+{
+  display: block;
+  line-height: 21px;
 }
 
 
-/* --------------   hebergement a marseille    --------------*/ 
-/* --------------   les plus populaires    --------------*/ 
 
-/* --------------   les plus polpulaires   --------------*/ 
 
-/* --------------            footer          --------------*/ 
+/*--------------            footer          --------------*/ 
 
+footer {
+  display: flex;
+  background-color: #F2F2F2;   
+  margin: -4%;
+  margin-top: 50px;
+  height: 183px;
+  justify-content: flex-start;
+ }
+footer a{
+  text-decoration: none;
+}
+footer li
+{
+  list-style-type: none;
+  margin-top: 7px;
+}
+footer ul
+{
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  text-decoration: none;
+  margin-top: -5px;
+}
+footer div
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 33%;
+}
+
+footer h4 {
+  margin-top: 30px;
+
+}
+li a {
+  text-decoration: none;
+}
+footer a:visited { 
+  color: black;
+}
 /* --------------            footer           --------------*/ 
