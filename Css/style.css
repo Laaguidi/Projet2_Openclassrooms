@@ -83,7 +83,7 @@ nav ul {
 
 nav li
 {
-  margin-right: 50px;
+  margin-right: 60px;
 }
 
 nav a {
@@ -469,6 +469,7 @@ footer {
   margin-top: 50px;
   height: 183px;
   justify-content: flex-start;
+  padding-left: 33px;
  }
 footer a{
   text-decoration: none;
@@ -496,7 +497,7 @@ footer div
 
 footer h4 {
   margin-top: 30px;
-
+  font-size: 17px;
 }
 li a {
   text-decoration: none;
