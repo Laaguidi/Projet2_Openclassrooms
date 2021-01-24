@@ -2,13 +2,17 @@
   margin: 0;
   padding: 0;
 }
+
 /*   --------------  style de base  --------------*/
 body
 {
-	padding: 3%;
-	font-family: 'Raleway', Arial, sans-serif;
+  padding: 3%; 
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: px;
   margin: auto;
   line-height: 32px;
+  padding-right: 25px;
+  padding-left: 50px;
 }
 
 h1 {
@@ -30,7 +34,7 @@ h3 {
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -39,9 +43,8 @@ h5 {
   color: grey;
 }
 
-p
-{
-  font-size: 17px;
+p {
+  font-size: 17px; /*17px */
   font-weight: 3em;
   color: grey;
 }
@@ -53,7 +56,12 @@ a  {
 a { 
   color: black;
 }
+main {
+  padding: ;
+}
+
 /* -------------------   style de base   ------------------*/
+
 /* --------------------    Header  -------------------------*/
 header {
   display: flex;
@@ -92,72 +100,76 @@ nav a {
   text-decoration: none;
   color: grey;
 }
-
+.sinscrire {
+  color: #0065FC;
+  list-style-type: none;
+}
+.hebergements {
+  color: #0065FC;
+}
 nav a:hover {
   color: #0065FC;
   border-top: 2px solid #0065FC;
 }
 
 /* -----------------   Header   --------------------------*/ 
+
 /* -----------------   Trouvé votre hébergement   --------------------------*/ 
 #trouvé-votre-hébergement {
-  padding-top: 25px;
+  /*padding-top: 25px;*/
+  margin-top: 2em;;
   font-size: 20px;
 } 
 
 
-
 /* ----- recherche ville  bar -------*/
-.recherche input 
-{
-    height: 50px;
-    text-align: center;
-}
-
-.city 
-{
-    width: 227px;             /* 170     origin*/
-    margin-left: 12px;
-    padding-left: 15px;
-    border: none;
-    font-size: 17px;
-    font-weight: bold;
-}
-
-#sub
-{
-    border-radius: 0 12px 12px 0;
-    background-color: #0065FC;
-    color: white;
-    height: 49px;        /*35 */
-    width: 150px;          /* 100px */
-    border: none;
-    font-size: 14px;
-}
-
-
-.recherche
-{
+.recherche {
   display: flex;
   height: 28px;
 }
-
-.recherche p
-{
+.recherche input {
+    height: 50px;
+    text-align: center;
+    font-size: 0.89em;
+   
+}
+.recherche p {
   display: flex;
   align-items: baseline;
   flex-flow: row nowrap;
   background-color: #F2F2F2;
   border-radius: 12px;
   font-size: 20px; 
-  margin-top: -14px;          /* yavais rien */
+  margin-top: -14px;          
 }
 
-#icon 
-{
-  margin-left: 25px; 
-  margin-right: 15px;       /*  12px   */
+.city {
+    width: 227px;        
+    margin-left: 12px;
+    padding-left: 15px;
+    border: 1px solid lightgrey;
+    font-size: 17px;
+    font-weight: bold;
+    
 }
+
+#sub {
+    border-radius: 0 12px 12px 0;
+    background-color: #0065FC;
+    color: white;
+    height: 51px;        
+    border: none;
+    font-size: 18px;
+    width: 9em;   /* 139px */
+}
+
+#icon {
+  margin-left: 1em; /* 25px */
+  margin-right: 0.55em;  /*  15px  */
+  color: black; 
+  font-size: 1em;     
+}
+
 /* --------------   Filtres    --------------*/
 .filtres 
 {
@@ -167,6 +179,13 @@ nav a:hover {
   flex-wrap: wrap;
   font-weight: bold;
   margin-top: -14px;
+}
+.filtres h3
+{
+  font-size: 19px;
+  margin-top: 20px;
+  margin-left: 0;
+  font-weight: bold;
 }
 
 .filtres ul
@@ -185,27 +204,18 @@ nav a:hover {
 .filtres a
 {
   font-size: 17px;
-  padding: 8px 8px 8px 0;
+  padding: 11px 8px 8px 0;
   color: black;
   border: 1px solid #bdc3c7;
   border-radius: 50px;
-}
-
-
-.filtres h3
-{
-  font-size: 18px;
-  margin-top: 20px;
-  margin-left: 0;
-  font-weight: bold;
 }
 
 .filtres i 
 {
   color: #0065FC;
   background-color: #DEEBFF;
-  padding: 10px 10px;
-  margin-right: 10px;
+  padding: 11px 10px;
+  margin-right: 12px;
   border-radius: 50%;
 }
 
@@ -221,9 +231,8 @@ nav a:hover {
   color: red;
 }
 
-
-
 /* --------------   Filtres    --------------*/ 
+
 /* --------------   Informations    --------------*/ 
 .information
 {
@@ -234,12 +243,16 @@ nav a:hover {
 
 .information i
 {
-  font-size: 20px;
+  font-size: 22px;
   color: white;
   background-color: #0065FC;
   margin-right: 10px;
   border-radius: 50%;
   border: solid 1px #F2F2F2;
+}
+ .info {
+  font-size: 17px;
+  color: grey;
 }
 
 /* --------------   Informations    --------------*/  
@@ -272,16 +285,16 @@ nav a:hover {
   background-image: url('../Images/hébergements/hotel-chez-amina.jpg');
 } 
 
-#hebergements  
+#les-hebergements  
 {
  display: flex;
- margin-top: 30px;
+ margin-top: 32px;
  justify-content: space-between;
 }
 
  .hébergements-a-marseille {
   padding-left: 2px;
-  margin-top: 15px;
+  margin-top: 15px;   /*  0.60em  */
 }
 
 
@@ -298,7 +311,7 @@ section
 {
   display: block;
   background-color: #F2F2F2;
-  width: 61%;                   /* a voir */
+  width: 64%;                   /* a voir */
   height: 550px;
   border-radius: 20px;
   font-size: 10px;
@@ -316,6 +329,7 @@ margin-left: 28px;
   display: flex;
   justify-content: space-around;
   margin: 15px;
+  margin-top: -13px; /*  */
 }
 
 .deuxieme-ligne
@@ -361,6 +375,11 @@ margin-left: 28px;
   font-size: 10px;
 }
 
+#strong {
+  font-weight: bold;
+  color: black;
+}
+
 #star1
 {
   color: #dce0e6;
@@ -375,6 +394,7 @@ margin-left: 28px;
   flex-direction: column;
   margin-left: 29px;
 }
+
 /* --------------   les plus polpulaires   --------------*/ 
 aside   
 {
@@ -400,7 +420,8 @@ aside
 }
 .les-plus-populaires i 
 {
-  font-size: 18px;
+  font-size: 1.30em;  /* 20px */
+  color: black;
   /*margin-bottom: 2%; */
   
 }
@@ -410,9 +431,9 @@ aside
   width: 85%;
   height: 133px;
   background: white;
-  border-radius: 5px;
+  border-radius: 20px;
   margin: auto;
-  box-shadow: 1px 1px 2px #dce0e6;    /* box shadow  */
+  box-shadow: 3px 3px 10px #dce0e6;    /* box shadow  */
   padding: 1%;
 }
 .pic-1
@@ -457,7 +478,9 @@ aside
   line-height: 21px;
 }
 
-
+.pic-2 {
+  padding-right: 12px;
+}
 
 
 /*--------------            footer          --------------*/ 
