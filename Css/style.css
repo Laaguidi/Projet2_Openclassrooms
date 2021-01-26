@@ -44,7 +44,7 @@ h5 {
 }
 
 p {
-  font-size: 17px; /*17px */
+  font-size: 17px;
   font-weight: 3em;
   color: grey;
 }
@@ -71,7 +71,7 @@ header {
 }
 
 .logo {
-/*  margin-left: 25px; */
+
  
 }
 
@@ -106,6 +106,7 @@ nav a {
 }
 .hebergements {
   color: #0065FC;
+  border-top: 3px solid;
 }
 nav a:hover {
   color: #0065FC;
@@ -116,7 +117,7 @@ nav a:hover {
 
 /* -----------------   Trouvé votre hébergement   --------------------------*/ 
 #trouvé-votre-hébergement {
-  /*padding-top: 25px;*/
+  
   margin-top: 2em;;
   font-size: 20px;
 } 
@@ -160,7 +161,7 @@ nav a:hover {
     height: 51px;        
     border: none;
     font-size: 18px;
-    width: 9em;   /* 139px */
+    width: 9em;   
 }
 
 #icon {
@@ -258,8 +259,6 @@ nav a:hover {
 /* --------------   Informations    --------------*/  
 
 /* --------------   hebrgements a marseille    --------------*/ 
-
-
 .image-1
 {
   background-image: url('../Images/hébergements/lacanne-biére.jpg');
@@ -297,7 +296,6 @@ nav a:hover {
   margin-top: 15px;   /*  0.60em  */
 }
 
-
 .images-1 {
   background-size: cover;
   background-position: 50%;
@@ -311,11 +309,11 @@ section
 {
   display: block;
   background-color: #F2F2F2;
-  width: 64%;                   /* a voir */
+  width: 64%;                   
   height: 550px;
   border-radius: 20px;
   font-size: 10px;
-  padding-bottom: 30px;        /* padding-bottm */
+  padding-bottom: 30px;       
 }
 
 section h1
@@ -329,7 +327,7 @@ margin-left: 28px;
   display: flex;
   justify-content: space-around;
   margin: 15px;
-  margin-top: -13px; /*  */
+  margin-top: -13px; 
 }
 
 .deuxieme-ligne
@@ -422,7 +420,7 @@ aside
 {
   font-size: 1.30em;  /* 20px */
   color: black;
-  /*margin-bottom: 2%; */
+
   
 }
 .section-2  {
@@ -479,10 +477,163 @@ aside
 }
 
 .pic-2 {
-  padding-right: 12px;
+  padding-right: px;
 }
 
+#stars {
+  padding-top: 14px;
+}
+/* ---------------- Activités A Marseille ----------------- */
+.activites-a-marseille {
+  margin-top: 2em;
+}
 
+.activites {
+  display: flex;
+  height: 600px;
+  justify-content: space-between; 
+  align-content: space-around; 
+  padding-bottom: 3px;
+  width: 100%;
+  align-items: flex-start;
+  margin-left: -17px;
+  }
+.vieux-port {
+   width: 90%;
+   margin: 20px 0px 20px 10px;
+   cursor: pointer;
+   border-radius: 30px;
+   background: white;
+   box-shadow: 2px 2px 5px #aaaaaa; 
+   padding-bottom: 1%; 
+  }
+.grande-photo {
+    width: 70%;
+    height: 900px;
+  }
+.vieux-port {
+    width: 90%;
+    margin: 20px 0px 20px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 2px 2px 5px #aaaaaa; 
+    padding-bottom: 1%;
+  }
+  .vieux-port-image {
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #aaaaaa; 
+    
+    height: 470px;
+    object-fit: cover; 
+    width: 100%;
+  }
+  .cadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 500px;
+  }
+  .fort-pomegues {
+    width: 90%;
+    margin: 20px 0px 20px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 2px 2px 5px #aaaaaa;                     
+    height: 230px;
+    height: 100%;
+    }
+  .fort-image {
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #aaaaaa;
+  
+     height: 200px;
+    object-fit: cover; 
+    width: 100%;
+   }
+   .iles-Frioul-image {
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #aaaaaa;
+   
+    height: 165px;
+    object-fit: cover; 
+    width: 100%;
+  }
+  .iles-frioul {
+    width: 90%;
+    margin: 20px 0px 20px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 2px 2px 5px #aaaaaa; 
+  }
+
+  .les-calanques {
+    width: 90%;
+    margin: 20px 0px 20px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 2px 2px 5px #aaaaaa; /*ombres*/
+    padding-bottom: 1%;
+  }
+ 
+  .parc-calanques-image {
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #aaaaaa; 
+        
+    height: 470px;
+    object-fit: cover; 
+    width: 100%;
+  }
+  .notre-dame-lagarde {
+    width: 90%;
+    margin: 20px 0px 20px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 2px 2px 5px #aaaaaa; 
+   }
+  .notre-dame-image {
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #aaaaaa; 
+         
+    height: 150px;
+    object-fit: cover; 
+    width: 100%;
+  }
+  .titre {
+   padding-left: 5%;
+  }
+  .long-champ {
+   width: 90%;
+    margin: 20px 0px 20px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 2px 2px 5px #aaaaaa; 
+ }
+  .longchamp-image {
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #aaaaaa; 
+         
+    height: 215px;
+    object-fit: cover; 
+    width: 100%;
+  }
+ 
+ 
+
+ 
+  
 /*--------------            footer          --------------*/ 
 
 footer {
