@@ -571,4 +571,11 @@ li a {
 footer a:visited { 
   color: black;
 }
+
+.a-propos ul {
+ margin-top: -6px;
+}
+.assistance ul {
+  margin-top: -9px;
+}
 /* --------------            footer           --------------*/ 
