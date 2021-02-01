@@ -226,8 +226,8 @@ nav a:hover {
 }
 
 .filtres i:hover {
-  background-color:salmon;
-  color: red;
+  background-color:rgb(230, 209, 236);
+  color: rgb(79, 187, 236);
 }
 /* --------------   Informations    --------------*/ 
 .information
@@ -290,15 +290,11 @@ nav a:hover {
   height: 61%;
   object-fit: cover;
 }
-/* #Activités a, #Hébergement a
-{
-    text-decoration: none;
-    color: black;
-} */
+
 a h3 {
   color: black;
   margin-left: 10px;
-  margin-top: 5px;
+  margin-top: 5px; 
   margin-bottom: -7px;
   font-size: 1em;
 }
@@ -307,10 +303,7 @@ a p {
   margin-left: 10px;
   font-size: 0.9em;
 }
-/* #description-and-stars
-{
-    line-height: 12px;
-} */
+
 #description-and-stars {
   margin-top: 3px;
 }
@@ -331,10 +324,10 @@ a p {
 {
   color: lightgrey;
 }
-/*     les plus populaires   */ 
+/*****    les  populaires   *****/ 
 
 .les-populaires {
-  margin-right: 2em;
+  margin-right: 2.4em;
   display: flex;
   flex-direction: column;
   width: 26%;
@@ -533,12 +526,7 @@ a p {
     object-fit: cover; 
     width: 100%;
   }
- 
- 
-
- 
-  
-/*--------------            footer          --------------*/ 
+ /*--------------            footer          --------------*/ 
 
 footer {
   display: flex;
@@ -563,13 +551,13 @@ footer ul
   padding: 0;
   font-size: 15px;
   text-decoration: none;
-  padding-top: 8px;
+  line-height: 1.5em;
 }
 footer div
 {
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
+  margin-left: 45px;
   width: 33%;
 }
 
