@@ -1,7 +1,7 @@
 # Projet2_Reservia_openclassroom
 Projet 2 du parcours Développeur Web Junior d'Openclassrooms - Reservia, transformez une maquette en site web.
 
-#ÉLÉMENTS FOURNIS :
+ #ÉLÉMENTS FOURNIS :
 
 * Police : Raleway .
 * Deux maquettes : la premiére desktop et la deuxiéme mobile .
