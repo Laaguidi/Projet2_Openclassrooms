@@ -26,7 +26,7 @@ h2 {
 header {
   margin-top: 18px;
   margin-bottom: 0px;
-  margin-left: 2vw;
+  margin-left: 3vw;
 }
 
 header p {
@@ -97,7 +97,7 @@ main {
 }
 
 .search-filtres {
-  margin-left: 7px;
+  margin-left: 20px;
 }
 .search-filtres p {
   font-size: 0.9em;
@@ -131,7 +131,7 @@ input {
 }
 
 input:hover {
-  background-color: #f2f2f2;
+  background-color:; /* #f2f2f2*/
 }
 
 .fa-map-marker-alt {
@@ -186,8 +186,8 @@ select:hover {
 .fa-child {
   background-color: #deebff;
   color: #0065fc;
-  border-radius: 25px;
-  font-size: 1.1em;
+  border-radius: 27px; /* 25px */
+  font-size: 1em;
   padding: 15px;
 }
 
@@ -234,7 +234,8 @@ h4 {
   display: flex;
   align-items: center;
   font-size: 1.1em;
-}
+  margin-left: -14px;
+} 
 
 /* hebergements et plus populaires */
 
@@ -257,13 +258,18 @@ h4 {
   justify-content: space-between;
 }
 
+.heber-title {
+  margin-top: 23px;
+  margin-left: 7px;
+}
+
 .wrap-hebergement a {
   text-decoration: none;
   color: black;
   font-weight: bold;
   font-size: 1.1em;
   display: flex;
-  margin-left: 1vw;
+  /* margin-left: 1vw; */
 }
 
 #all-hebergement-divs {
@@ -349,7 +355,18 @@ h4 {
   background-image: url("../Images/hebergements/hotel-chez-amina.jpg");
 }
 
+#afficher-plus a {
+  margin-left: 23px;
+  margin-top: 21px;
+  margin-bottom: 28px;
+}
+
 /*   les plus populaires   */
+
+#populaires-et-icon {
+
+}
+
 .les-plus-populaires {
   background-color: #f2f2f2;
   border-radius: 15px;
@@ -366,6 +383,10 @@ h4 {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 0px;
+}
+
+.les-plus-populaires header h2 {
+  margin-left: -27px;
 }
 
 #three-divs{
@@ -443,12 +464,14 @@ h4 {
 #activites {
   width: 100%;
   height: 38vw;
+  margin-top: 4em;
 }
 
 .resultats-activites {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-left: -17px;
 }
 
 .act {
@@ -576,8 +599,40 @@ footer a:visited {
 .assistance ul {
   margin-top: -9px;
 }
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 1.7vw;
+  height: auto;
+}
+.footer-contenu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 1.6em;
+  font-size: 0.9em;
+  text-align: left;
+  padding-left: 0px;
+  padding-top: 11px;
+}
+
+.footer-contenu {
+  display: flex;
+  flex-direction: column;
+  margin-right: 18vw;
+  margin-left: 1vw;
+}
+
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 0px;
+  font-weight: 900;
+}
 /*    Media Queries tab   */
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and  (max-width: 1290px)/*(max-width: 1024px)*/ {
   #marseille-france {
     width: 50vw;
   }
@@ -633,6 +688,7 @@ footer a:visited {
 
   #contenu p {
     font-size: 0.8em;
+    margin-top: 5px;
   }
 
   .popu h4 {
@@ -668,7 +724,7 @@ footer a:visited {
     margin-bottom: 6vw;
   }
 
-  .blocpiedpage {
+  .footer-contenu {
     margin-right: 10vw;
   }
 }
@@ -749,13 +805,13 @@ footer a:visited {
   header p {
    
     margin-bottom: 20px;
-    margin-left: 15px;
+    margin-left: 30px;  /* 15px */
     margin-top: 20px;
   }
 
   h1,
   h2 {
-    margin-left: 15px;
+    margin-left: 32px; /*15px*/
   }
 
   header {
@@ -897,6 +953,11 @@ footer a:visited {
     margin-bottom: 6vw;
   }
 
+  .populaires-title {
+    padding-left: 45px;
+    margin-top: 23px;
+  }
+
   #three-divs {
     display: flex;
     flex-direction: column;
@@ -922,9 +983,10 @@ footer a:visited {
 
   #activites {
     margin-left: 0px;
+    margin-bottom: 6vw;
+    margin-top: 8px;
     width: 100%;
     height: auto;
-    margin-bottom: 6vw;
   }
 
   .resultats-activites {
@@ -932,6 +994,7 @@ footer a:visited {
     align-items: center;
     width: 100%;
     height: auto;
+    margin-left: 1px;
   }
 
   .act {
@@ -953,19 +1016,7 @@ footer a:visited {
     width: 100%;
   }
 
-  .blocpiedpage {
+  .footer-contenu {
     margin-right: 0px;
   }
 }
-
-  
-
-
- 
-
-
-
-
-
-
-   
