@@ -82,7 +82,7 @@ nav a:hover {
 
 .hebergements {
   color: #0065fc;
-  border-top: 2px solid #0065fc;
+  border-top: 3px solid #0065fc;
 }
 
 #titre-et-slogan {
@@ -277,6 +277,7 @@ h4 {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: -7px;
 }
 
 #all-hebergement-divs a:hover {
@@ -403,6 +404,7 @@ h4 {
   font-weight: initial;
   color: black;
   display: flex;
+ 
 }
 
 #three-divs a:hover {
@@ -624,6 +626,7 @@ footer {
   flex-direction: column;
   margin-right: 18vw;
   margin-left: 1vw;
+  width: auto;
 }
 
 h3 {
@@ -784,6 +787,10 @@ h3 {
     padding-bottom: 10px;
     width: 50vw;
     text-align: center;
+    
+  }
+  .hebergements {
+    border-top: none;
   }
 
   nav li:active {
