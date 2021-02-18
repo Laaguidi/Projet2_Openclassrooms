@@ -59,6 +59,7 @@ header li {
   margin-left: 54px;
   font-size: 1.2em;
   font-weight: 540;
+ 
 }
 
 nav a {
@@ -83,6 +84,7 @@ nav a:hover {
 .hebergements {
   color: #0065fc;
   border-top: 3px solid #0065fc;
+  
 }
 
 #titre-et-slogan {
@@ -461,6 +463,14 @@ h4 {
   font-size: initial;
   font-weight: initial;
 }
+
+.nuits {
+  margin-top: -10px;
+}
+
+.stars-position {
+  margin-top: 25px;
+}
 /*     activités a marseille  */
 
 #activites {
@@ -696,6 +706,10 @@ h3 {
 
   .popu h4 {
     font-size: 0.9em;
+  }
+
+  .nuits {
+    margin-top: -39px;
   }
 
   #activites {
