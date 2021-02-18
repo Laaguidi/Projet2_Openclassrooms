@@ -336,26 +336,26 @@ h4 {
 }
 
 #lacanne-biere {
-  background-image: url("../Images/hebergements/lacanne-biere.jpg");
+  background-image: url("../images/hebergements/lacanne-biere.jpg");
 }
 
 #hotel-du-port {
-  background-image: url("../Images/hebergements/hotel-du-port.jpg");
+  background-image: url("../images/hebergements/hotel-du-port.jpg");
 }
 #hotel-les-mouettes {
-  background-image: url("../Images/hebergements/hotel-les-mouettes.jpg");
+  background-image: url("../images/hebergements/hotel-les-mouettes.jpg");
 }
 
 #hotel-dela-mer {
-  background-image: url("../Images/hebergements/hotel-de-la-mer.jpg");
+  background-image: url("../images/hebergements/hotel-de-la-mer.jpg");
 }
 
 #auberge-le-panier {
-  background-image: url("../Images/hebergements/auberge-le-panier.jpg");
+  background-image: url("../images/hebergements/auberge-le-panier.jpg");
 }
 
 #chez-amina {
-  background-image: url("../Images/hebergements/hotel-chez-amina.jpg");
+  background-image: url("../images/hebergements/hotel-chez-amina.jpg");
 }
 
 #afficher-plus a {
@@ -430,14 +430,14 @@ h4 {
   background-size: cover;
 }
 #soleil-du-matin {
-  background-image: url("../Images/les-plus-populaires/lesoleil-du-matin.jpg");
+  background-image: url("../images/les-plus-populaires/lesoleil-du-matin.jpg");
 }
 #aucoeur-de-leau {
-  background-image: url("../Images/les-plus-populaires/aucoeur-de-leau.jpg");
+  background-image: url("../images/les-plus-populaires/aucoeur-de-leau.jpg");
 }
 
 #tout-bleuet-blanc {
-  background-image: url("../Images/les-plus-populaires/tou-bleu-et-blanc.jpg");
+  background-image: url("../images/les-plus-populaires/tou-bleu-et-blanc.jpg");
 }
 
 
@@ -523,27 +523,27 @@ h4 {
 }
 
 #vieuxport {
-  background-image: url("../Images/activites/3_medium/vieux-port.jpg");
+  background-image: url("../images/activites/3_medium/vieux-port.jpg");
 }
 
 #calanques {
-  background-image: url("../Images/activites/3_medium/parc-national-calanques.jpg");
+  background-image: url("../images/activites/3_medium/parc-national-calanques.jpg");
 }
 
 #pomegues {
-  background-image: url("../Images/activites/3_medium/fort-de-pomegues.jpg");
+  background-image: url("../images/activites/3_medium/fort-de-pomegues.jpg");
 }
 
 #frioul {
-  background-image: url("../Images/activites/3_medium/iles-du-frioul.jpg");
+  background-image: url("../images/activites/3_medium/iles-du-frioul.jpg");
 }
 
 #notredame {
-  background-image: url("../Images/activites/3_medium/notre-dame-lagarde.jpg");
+  background-image: url("../images/activites/3_medium/notre-dame-lagarde.jpg");
 }
 
 #longchamp {
-  background-image: url("../Images/activites/3_medium/parc-longchamp.jpg");
+  background-image: url("../images/activites/3_medium/parc-longchamp.jpg");
 }
 
 .resultats-activites a {
