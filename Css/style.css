@@ -24,7 +24,7 @@ h2 {
 /*     header      */
 
 header {
-  margin-top: 18px;
+  /* margin-top: 18px; */
   margin-bottom: 0px;
   margin-left: 3vw;
 }
@@ -40,7 +40,7 @@ header p {
 }
 
 nav {
-  padding-top: 8px;
+  padding-top: 5px;
   margin-right: 60px;
 }
 
@@ -55,8 +55,8 @@ ul {
 }
 
 header li {
-  margin-right: 13px;
-  margin-left: 54px;
+  /* margin-right: 13px;
+  margin-left: 54px; */
   font-size: 1.2em;
   font-weight: 540;
  
@@ -70,7 +70,7 @@ nav a {
 
 nav a:hover {
   color: #0065fc;
-  border-top: 3px #0065fc solid;
+  border-top: 2px #0065fc solid;
 }
 
 .login {
@@ -83,12 +83,15 @@ nav a:hover {
 
 .hebergements {
   color: #0065fc;
-  border-top: 3px solid #0065fc;
+  border-top: 2px solid #0065fc;
   
 }
 
 #titre-et-slogan {
   margin-top: 30px;
+}
+nav li a {
+  padding: 1em;
 }
 
 /*     search et filtres     */
@@ -179,7 +182,7 @@ select {
 }
 
 select:hover {
-  background-color: #74b9ff;  /* #f2f2f2 */
+  background-color: #74b9ff;  
 }
 
 .fa-dog,
@@ -188,7 +191,7 @@ select:hover {
 .fa-child {
   background-color: #deebff;
   color: #0065fc;
-  border-radius: 27px; /* 25px */
+  border-radius: 27px; 
   font-size: 1em;
   padding: 15px;
 }
@@ -224,7 +227,7 @@ select:hover {
 h4 {
   font-size: 1em;
   font-weight: bold;
-  margin-top: 4px; /* 0px */
+  margin-top: 4px; 
   margin-bottom: 0px;
   line-height: 110%;
   font-family: "Raleway";
@@ -261,7 +264,7 @@ h4 {
 }
 
 .heber-title {
-  margin-top: 23px;
+  margin-top: 6px;
   margin-left: 7px;
 }
 
@@ -385,7 +388,8 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
+  margin-top: 7px;
 }
 
 .les-plus-populaires header h2 {
@@ -464,13 +468,15 @@ h4 {
   font-weight: initial;
 }
 
-.nuits {
+/* .nuits {
   margin-top: -10px;
-}
+} */
 
-.stars-position {
-  margin-top: 25px;
-}
+/* .stars-position {
+  margin-top: 11px;
+}  */
+
+
 /*     activités a marseille  */
 
 #activites {
@@ -708,9 +714,9 @@ h3 {
     font-size: 0.9em;
   }
 
-  .nuits {
+  /* .nuits {
     margin-top: -39px;
-  }
+  }  */
 
   #activites {
     height: 55vw;
@@ -826,13 +832,13 @@ h3 {
   header p {
    
     margin-bottom: 20px;
-    margin-left: 30px;  /* 15px */
+    margin-left: 30px;  
     margin-top: 20px;
   }
 
   h1,
   h2 {
-    margin-left: 32px; /*15px*/
+    margin-left: 32px; 
   }
 
   header {
