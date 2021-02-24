@@ -55,10 +55,8 @@ ul {
 }
 
 header li {
-  /* margin-right: 13px;
-  margin-left: 54px; */
   font-size: 1.2em;
-  font-weight: 540;
+  /* font-weight: 540;  */
  
 }
 
@@ -106,7 +104,6 @@ main {
 }
 .search-filtres p {
   font-size: 0.9em;
-  /* font-weight: ; */
   line-height: 2em;
 }
 
@@ -135,12 +132,12 @@ input {
   width: 25vw;
 }
 
-input:hover {
-  background-color:; /* #f2f2f2*/
-}
+/* input:hover {
+  background-color:; 
+} */
 
 .fa-map-marker-alt {
-  /*border: 2px #f2f2f2 solid;*/
+  
   border-radius: 10px 0px 0px 10px;
   background-color: #f2f2f2;
   padding: 17px 14px;
@@ -155,7 +152,6 @@ input:hover {
   font-family: "Raleway";
   font-weight: bold;
   border-radius: 0px 10px 10px 0px;
-  /*border: 1px #0065fc solid;*/
   padding: 16px;
   position: absolute;
   left: 22vw;
@@ -177,8 +173,9 @@ select {
   font-size: 1em;
   font-weight: bold;
   -webkit-appearance: none;
-  -moz-appearance: none;
+  -moz-appearance: none; 
   background-color: white;
+  /* appearance: none; */
 }
 
 select:hover {
