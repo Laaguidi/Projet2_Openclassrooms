@@ -1,18 +1,16 @@
   
-*{
+* {
   box-sizing: border-box;
 }
 
 body {
   font-family: "Raleway", Arial, serif;
-  /* font-size: 1em; */
   width: 100%;
   margin: auto;
 }
 
 h1 {
   font-size: 1.4em;
-  /* font-weight: bold; */
 }
 
 h2 {
@@ -24,7 +22,6 @@ h2 {
 /*     header      */
 
 header {
-  /* margin-top: 18px; */
   margin-bottom: 0px;
   margin-left: 3vw;
 }
@@ -132,10 +129,6 @@ input {
   width: 25vw;
 }
 
-/* input:hover {
-  background-color:; 
-} */
-
 .fa-map-marker-alt {
   
   border-radius: 10px 0px 0px 10px;
@@ -172,10 +165,10 @@ select {
   font-family: "Raleway";
   font-size: 1em;
   font-weight: bold;
-  -webkit-appearance: none;
-  -moz-appearance: none; 
+  /* -webkit-appearance: none;
+  -moz-appearance: none;  */
   background-color: white;
-  /* appearance: none; */
+  appearance: none; 
 }
 
 select:hover {
@@ -323,7 +316,7 @@ h4 {
   background-size: cover;
 }
 
-#all-hebergement-divs #discription {
+#all-hebergement-divs .discription {
   flex: 40%;
   width: 96%;
   margin-left: 20px;
@@ -994,6 +987,10 @@ h3 {
     padding-top: 0.2em;
     padding-bottom: 0.2em;
     font-size: 1.1em;
+  }
+
+  #all-hebergement-divs .discription {
+    line-height: 2px;
   }
 
   .discription p {
